@@ -398,3 +398,90 @@ device:usb-Logitech_Logitech_Attack_3-joystick
    button 2 missile
    button 3 weapons-wavelength-down
    button 4 weapons-wavelength-up
+# Logitech Dual Action G-UD8
+device:usb-Logitech_Logitech_Dual_Action-joystick
+ mode main
+   axis 0 yaw 1
+   axis 1 pitch 1
+   axis 2 roll 1
+   axis 3 pitch 1
+   axis 4 warp 1
+   axis 5 throttle 1
+   button 0 nav-change-pov
+   button 1 nav-docking-magnets
+   button 2 nav-lights
+   button 3 nav-standard-orbit
+   button 4 nav-nudge-zoom-up
+   button 5 nav-engage-warp
+   button 6 nav-nudge-zoom-down
+   button 7 nav-reverse
+   button 8 main 6
+   button 9 main 1
+   button 10
+   button 11
+ mode navigation
+   axis 0 yaw 1
+   axis 1 pitch 1
+   axis 2 roll 1
+   axis 3 pitch 1
+   axis 4 warp 1
+   axis 5 throttle 1
+   button 0 nav-change-pov
+   button 1 nav-docking-magnets
+   button 2 nav-lights
+   button 3 nav-standard-orbit
+   button 4 nav-nudge-zoom-up
+   button 5 nav-engage-warp
+   button 6 nav-nudge-zoom-down
+   button 7 nav-reverse
+   button 8 main 0
+   button 9 main 2
+   button 10
+   button 11
+ mode weapons
+   axis 0 weapons-yaw 1
+   axis 1 weapons-pitch 1
+   axis 2 weapons-yaw 1
+   axis 3 weapons-pitch 1
+   axis 4 weapons-wavelength
+   button 0 weapons-wavelength-down
+   button 1 missile
+   button 2 weapons-wavelength-up
+   button 3 missile
+   button 4 phaser
+   button 5 phaser
+   button 6 torpedo
+   button 7 torpedo
+   button 8 main 1
+   button 9 main 3
+   button 10
+   button 11
+ mode engineering
+   button 8 main 2
+   button 9 main 7
+ mode science
+   button 8 main 7
+   button 9 main 5
+ mode comms
+   button 8 main 4
+   button 9 main 6
+ mode demon
+   button 8 main 4
+   button 9 main 0
+ mode damcon
+   axis 0 damcon-roll
+   axis 1 damcon-pitch
+   axis 2 damcon-roll
+   axis 3 damcon-pitch
+   axis 4 damcon-roll
+   axis 5 damcon-pitch
+   button 0 damcon-gripper
+   button 1 damcon-gripper
+   button 2 damcon-gripper
+   button 3 damcon-gripper
+   button 4 damcon-gripper
+   button 5 damcon-gripper
+   button 6 damcon-gripper
+   button 7 damcon-gripper
+   button 8 main 3
+   button 9 main 4
